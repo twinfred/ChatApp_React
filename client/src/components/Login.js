@@ -16,7 +16,7 @@ export default function Login({ onIdSubmit }) {
   }
 
   return (
-    <Container className="align-items-center d-flex" style={{ height: '80vh'}}>
+    <Container className="align-items-center d-flex" style={{ height: '100vh'}}>
       <Form onSubmit={handleSubmit} className="w-100">
         <Form.Group>
           <Form.Label htmlFor="IdInput">Enter Your ID:</Form.Label>
